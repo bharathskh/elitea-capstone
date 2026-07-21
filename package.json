@@ -1,16 +1,19 @@
 {
-  "name": "elitea-demo-app",
+  "name": "elitea-demo-application",
   "version": "1.0.0",
-  "description": "Demo application for EliteA Documentation Sync",
+  "description": "Sample Node.js REST API for EliteA Automated Documentation Sync",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "jest"
   },
   "dependencies": {
-    "express": "^5.0.0"
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
