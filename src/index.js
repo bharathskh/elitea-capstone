@@ -1,19 +1,12 @@
 const express = require("express");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
-
-app.get("/", (req, res) => {
-    res.send("EliteA Demo Application");
-});
+const port = process.env.PORT || 3000;
 
 app.get("/health", (req, res) => {
-    res.json({
-        status: "UP",
-        application: "EliteA Demo Application"
-    });
+  res.json({ status: "ok" });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`EliteA Demo Application running on port ${port}`);
 });
