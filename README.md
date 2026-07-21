@@ -1,5 +1,8 @@
 # EliteA Demo Application
 
+# App_Name
+EliteA Demo Application
+
 ## Overview
 
 EliteA Demo Application is a sample Node.js REST API created to demonstrate the EliteA Automated Documentation Sync workflow.
@@ -12,15 +15,19 @@ EliteA Demo Application is a sample Node.js REST API created to demonstrate the 
 - GitHub Actions CIgit push
 - Jest unit testing
 
-## Technology Stack
+## Tech_Stack
 
 - Node.js 20
 - Express
 - Jest
 
-## Entry Point
+## Entry_Points
 
 src/index.js
+
+# Dependencies
+
+npm run install
 
 ## Run the Application
 
