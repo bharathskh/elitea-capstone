@@ -24,9 +24,9 @@ npm install
 ## Language
 typescript
 
-## Cloud Provider
+## Cloud_Provider
 AWS
 
-## Primary Database
+## Primary_Database
 PostgreSQL
 
