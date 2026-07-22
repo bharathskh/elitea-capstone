@@ -30,3 +30,6 @@ AWS
 ## Primary_Database
 PostgreSQL
 
+## Code_Coverage_Goal
+80%
+
