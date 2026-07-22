@@ -20,3 +20,13 @@ src/index.js
 
 ## Dependencies
 npm install
+
+## Language
+typescript
+
+## Cloud Provider
+AWS
+
+## Primary Database
+PostgreSQL
+
